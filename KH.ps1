@@ -11,15 +11,9 @@ function NewFile {
     }
 }
 
-#for (i = 0; i -lt 10; i++) {
-#    New-Item 
-#}
-
-
-
 NewFile
 
-#Start-Process -FilePath "C:\Riot Games\Riot Client\RiotClientServices.exe" -ArgumentList "--launch-product=league_of_legends --launch-patchline=live"
+Start-Process -FilePath "C:\Riot Games\Riot Client\RiotClientServices.exe" -ArgumentList "--launch-product=league_of_legends --launch-patchline=live"
 Start-Process "https://www.youtube.com/watch?v=vbM36yfIVAw"
 
 $location = Get-Location
