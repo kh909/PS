@@ -8,6 +8,7 @@ function GetTime {
 function NewFile {
     for ($i = 0; $i -lt 50; $i++) {
     New-Item $DesktopPath\KHisThEbEsT$i.txt
+    Add-Content $DesktopPath\KHisThEbEsT$i.txt "KH is the best!!!! $i"
     }
 }
 
